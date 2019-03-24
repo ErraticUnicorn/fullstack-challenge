@@ -125,5 +125,4 @@ typings/
 .env
 
 contacts_api/config/keys.js
-contacts_frontend/.next
 
