@@ -1,0 +1,31 @@
+{
+  "devFiles": [
+    "static/development/dll/dll_b5225241d5758ce7bfd2.js"
+  ],
+  "pages": {
+    "/_app": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/contacts": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/new_contact": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ]
+  }
+}
