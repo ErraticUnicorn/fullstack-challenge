@@ -124,5 +124,5 @@ typings/
 # dotenv environment variables file
 .env
 
-.ini
+contacts_api/config/keys.js
 
