@@ -56100,7 +56100,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnew_contact&absolutePagePath=%2FUsers%2Fcoshxlabs%2FDesktop%2FDocuments%2Fapps%2Ffullstack-challenge%2Fcontacts_frontend%2Fpages%2Fnew_contact.js ***!
   \************************************************************************************************************************************************************************************************/
@@ -56123,5 +56123,5 @@ module.exports = dll_bed7e68b081ee2342acd;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=new_contact.js.map

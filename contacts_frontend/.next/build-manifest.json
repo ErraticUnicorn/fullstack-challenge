@@ -11,11 +11,19 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/contacts": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/new_contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contacts": [
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
