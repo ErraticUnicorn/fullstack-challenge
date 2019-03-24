@@ -22,7 +22,7 @@ exports.contact_create = function (req, res) {
 
     contact.save(function (err) {
         if (err) {
-            return err;
+            return res.send(err);
         }
         res.send('Contact Created successfully')
     })

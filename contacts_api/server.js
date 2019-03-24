@@ -1,9 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+let cors = require('cors')
+const contact = require('./routes/contact.route');
 const app = express();
 const db = require('./config/keys').mongoURI;
-const bodyParser = require('body-parser');
-const contact = require('./routes/contact.route');
 
 //DB Connection
 mongoose
@@ -17,8 +18,8 @@ mongoose
 });
 
 //Form parsing
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(cors())
+app.use(express.json())
 
 //Routes
 app.get('/', (req, res) => {
